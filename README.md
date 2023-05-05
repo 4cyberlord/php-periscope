@@ -28,4 +28,6 @@ Easily search and download packages from the VS Code command palette without lea
 4. Wait for the package to download.
 5. Check your composer.json file to see if the package is installed.
 
+## License
 
+This extension is [licensed](./LICENSE.md) under the MIT License.
