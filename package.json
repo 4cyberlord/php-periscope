@@ -8,6 +8,10 @@
           "name": "Charles Adu Boakye",
           "email": "4cyberlord@proton.me"
      },
+     "repository": {
+          "type": "git",
+          "url": "https://github.com/4cyberlord/php-periscope.git"
+     },
      "engines": {
           "vscode": "^1.78.0"
      },
