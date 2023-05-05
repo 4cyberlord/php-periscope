@@ -1,0 +1,60 @@
+{
+     "name": "php-periscope",
+     "displayName": "PHP Periscope",
+     "description": "PHP Periscope is a VSCode extension that allows users to easily search and install PHP packages through Composer without leaving their editor.",
+     "version": "0.0.1",
+     "publisher": "4cyberlord",
+     "author": {
+          "name": "Charles Adu Boakye",
+          "email": "4cyberlord@proton.me"
+     },
+     "engines": {
+          "vscode": "^1.78.0"
+     },
+     "categories": [
+          "Programming Languages"
+     ],
+     "keywords": [
+          "Autocomplete",
+          "Installation",
+          "Php",
+          "Composer",
+          "Dependency management",
+          "IntelliSense",
+          "Libraries",
+          "Packages",
+          "Code completion"
+     ],
+     "activationEvents": [
+          "onLanguage:php",
+          "onLanguage:composer"
+     ],
+     "main": "./src/extension.js",
+     "contributes": {
+          "commands": [
+               {
+                    "command": "php-periscope.searchPackages",
+                    "title": "Php Periscope"
+               }
+          ]
+     },
+     "scripts": {
+          "lint": "eslint .",
+          "pretest": "npm run lint",
+          "test": "node ./test/runTest.js"
+     },
+     "devDependencies": {
+          "@types/glob": "^8.1.0",
+          "@types/mocha": "^10.0.1",
+          "@types/node": "16.x",
+          "@types/vscode": "^1.78.0",
+          "@vscode/test-electron": "^2.3.0",
+          "eslint": "^8.39.0",
+          "glob": "^8.1.0",
+          "mocha": "^10.2.0",
+          "typescript": "^5.0.4"
+     },
+     "dependencies": {
+          "axios": "^1.4.0"
+     }
+}
