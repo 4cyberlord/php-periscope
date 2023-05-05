@@ -28,6 +28,12 @@ Easily search and download packages from the VS Code command palette without lea
 4. Wait for the package to download.
 5. Check your composer.json file to see if the package is installed.
 
+## Feedback and Contributing
+
+- For any issues or suggestions, please open an issue on [GitHub](https://github.com/4cyberlord/php-periscope/issues).
+- Contributions are welcome! Fork the repository on [GitHub](https://github.com/4cyberlord/php-periscope.git) and submit a pull request.
+
+
 ## License
 
 This extension is [licensed](./LICENSE.md) under the MIT License.
